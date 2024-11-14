@@ -32,7 +32,6 @@ a:hover{
     height: 580px;
     background-color: aquamarine;
     margin: auto;
-    display: flex;
 }
 .container .form_duoi{
     border-radius: 5px;
@@ -42,4 +41,7 @@ a:hover{
     height: 600px;
     margin-top: 10px;
     padding-top: 10px;
+}
+.khungtren{
+    display: flex;
 }
