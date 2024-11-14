@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/images/anhlogin.jpg);
+    background-size: cover; /* Giúp ảnh phủ kín phần tử */
+    background-position: center; /* Căn giữa ảnh */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */ 
+}
+
+image.anhdaidien{
+    width: 10%;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    color:rgb(187, 40, 40);
+}
+div{
+    font-weight: bold;
+    font-size: 13px;
+}
+input{
+    outline: none;
+    width: 200px;
+    padding: 1px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+span.username{
+    margin-right: 10px;
+}
+span.password{
+    margin-right: 13px;
+}
+button{
+    width: 270px;
+    padding: auto;
+    margin-bottom: 10px;
+}
